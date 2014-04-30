@@ -1,0 +1,139 @@
+/*Body Structure
+----------------*/
+body {
+/*BACKGROUND*/
+    background-color: #000;
+    background-image: url(home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 0 auto;
+    height: 450px;
+
+}
+
+div.container{
+    width: 0 auto;
+    padding: 40px;
+    position: absolute;
+
+}
+
+
+/*Main navigation bar styling
+-----------------------------*/
+nav.main-navigation
+{
+    float: left;
+    color: #FFFFFF;
+    width: 0 auto;
+    background-color:#808080;
+    position:fixed; /*Hold the main navigation bar at a fixed location hence it doesn't move when the site is scrolled*/
+    z-index: inherit;
+    top: 0px;    /*Reduces the gap between the main navigation bar and the top of the html page*/
+    left: 0px;
+    right: 0px;
+    height: 50px;
+}
+nav.main-navigation ul.toplevel
+{
+    
+    float: left;
+list-style: none outside none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    left: 15px;
+}
+nav.main-navigation ul.toplevel li
+{
+    display:inline; /*Shows the navigation list in a straight line*/
+    padding: 50px;   /*Increases the gap btw the menu items*/
+    margin-left: 50px;
+   }
+header.tree
+{
+    width: 0 auto;
+    top: 900px;
+    /*padding: 100px;*/
+    padding-top: 500px;
+    margin-top: 700px;
+    margin-left: 200px;
+    color: #333;
+   
+}
+#ass{
+    /*position: center;*/
+    top: 5px;
+    padding-top: 15px;
+    padding-bottom: 350px;
+    width:1000px;
+    margin-left: 0px;
+    height: 700px;
+}
+#image_slider{
+    position: relative;
+    overflow: auto;
+    height: 700px;
+    padding:0px;
+    left:0px;
+    top: 0px;
+    float: left;
+    width: 0 auto;
+    margin-left: 0px;
+
+}
+#image_slider li{
+    position:relative;
+    float:left; keeps the image to the leftside of the frame else the reverse leaves a gap
+    between the frame and the first image.
+    list-style-type: none;
+     list-style-image: none;
+    left: 0;
+    list-style-position: outside;
+    width: 0 auto;
+    max-width: 100%;
+    /*padding-left: 4px;*/
+    /*height: 900px;*/
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.image-slider-wrapper{
+    overflow: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#background-wrap {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    width: 960px;
+    border-width: 960px;
+}
+
+#background-wrap img {
+    position: absolute;
+    z-index: 4;
+    width: 960px;
+    height: auto !important;
+    min-width: 100%;*/
+}
+/*html, body {
+    height: 100%;
+    width: 100%;
+}*/
+/*img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+*/
